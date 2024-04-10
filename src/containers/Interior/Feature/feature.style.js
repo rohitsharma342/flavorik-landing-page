@@ -22,6 +22,9 @@ const SectionWrapper = styled.section`
 export const FeatureWrapper = styled.div`
   display: flex;
     flex-wrap: wrap;
+    gap:20px;
+    justify-content:center;
+    
   margin: 0 -80.5px;
   
   @media only screen and (max-width: 1360px) {
@@ -35,6 +38,7 @@ export const FeatureWrapper = styled.div`
     width:400px;
     padding: 0 71.5px;
      text-align: center;
+     margin-top:10px;
     @media only screen and (max-width: 1360px) {
       padding: 0 25px;
     }

@@ -109,13 +109,13 @@ export const bannerData = {
     {
       id: 1,
       thumb_url: slide1,
-      title: 'Restroom',
+      title: 'Become Chef',
       link: '#1',
     },
     {
       id: 2,
       thumb_url: slide2,
-      title: 'Livingroom',
+      title: 'Download the app',
       link: '#1',
     },
   
@@ -179,7 +179,7 @@ export const aboutData = {
 
 export const projectData = {
   title: 'Our Promise',
-  slogan: 'Connecting Palates, Uplifting Culinary Souls',
+  slogan: 'Connecting Palates,<br/> Uplifting Culinary Souls',
   thumb_url: project1,
   projects: [
     {

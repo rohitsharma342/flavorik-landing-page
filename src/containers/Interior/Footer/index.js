@@ -19,7 +19,7 @@ const Footer = ({ row, col, colOne, colTwo }) => {
   const { logo, mail, phone, socialLinks, menuWidgets } = footerData;
   return (
     <Fragment>
-      <CurvIcon>
+      {/* <CurvIcon>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 222.29">
           <g>
             <g>
@@ -27,7 +27,7 @@ const Footer = ({ row, col, colOne, colTwo }) => {
             </g>
           </g>
         </svg>
-      </CurvIcon>
+      </CurvIcon> */}
 
       <FooterWrapper>
         <Container width="1330px">

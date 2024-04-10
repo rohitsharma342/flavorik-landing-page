@@ -22,6 +22,7 @@ const SectionWrapper = styled.section`
 
   header {
     text-align: left;
+    
   }
 
   .container {

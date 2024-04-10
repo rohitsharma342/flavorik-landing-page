@@ -22,7 +22,7 @@ const Main = () => {
     <ThemeProvider theme={interiorTheme}>
       <Fragment>
         <Head>
-          <title>Interior | A react next landing page</title>
+          <title>Flavorick</title>
           <meta name="theme-color" content="#171717" />
           <meta name="description" content="React next landing page" />
           <meta name="keywords" content="React, React js, Next, Next js, Gatsby, Gatsby Js, Fast Landing, Modren Landing" />

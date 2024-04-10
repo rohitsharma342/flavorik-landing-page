@@ -184,7 +184,7 @@ export const FormWrapper = styled.form`
 `;
 
 export const ButtonGroup = styled.div`
-  margin-top: 50px;
+  margin-top: 30px;
   @media only screen and (max-width: 767px) {
     margin-top: 25px;
     margin-bottom: 54px;

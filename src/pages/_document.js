@@ -35,7 +35,7 @@ export default class CustomDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="icon" href="/favicon.png" />
+          <link rel="icon" href="/appicon.png" />
           {/* <link
             rel="icon"
             href="https://react-next-landing.redq.io/_next/static/images/favicon-ec2551afb2782a53fb493269d1ba4efe.png"

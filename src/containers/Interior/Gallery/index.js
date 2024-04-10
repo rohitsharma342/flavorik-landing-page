@@ -38,10 +38,10 @@ const Gallery = () => {
               <GalleryCard>
                 <Link href={item.link}>
                   <NextImage src={item.thumb_url} alt={item.name} />
-                  <Button className="read_more__btn">
+                  {/* <Button className="read_more__btn">
                     <span className="arrow"></span>
                     {item.name}
-                  </Button>
+                  </Button> */}
                 </Link>
               </GalleryCard>
             </GlideSlide>

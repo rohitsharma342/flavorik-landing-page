@@ -21,7 +21,7 @@ const HeadingWrapper = styled('p')(
 )
 
 const Heading = ({ content, ...props }) => (
-  <HeadingWrapper {...props}>{content}</HeadingWrapper>
+  <HeadingWrapper dangerouslySetInnerHTML={{ __html: content }} {...props}></HeadingWrapper>
 )
 
 export default Heading

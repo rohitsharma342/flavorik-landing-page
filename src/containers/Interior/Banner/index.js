@@ -21,6 +21,7 @@ import BannerWrapper, {
 
 import { bannerData } from 'common/data/Interior';
 import { Fade } from 'react-awesome-reveal';
+import { background } from 'styled-system';
 
 const Banner = () => {
   const { discount, discountLabel, title, text, carousel } = bannerData;
@@ -98,14 +99,14 @@ const Banner = () => {
                 <Button
                   type="submit"
                   colors="primaryWithBg"
-                  title="FREE CONSULT"
+                  title="I'AM INTRESTED"
                 />
-                <Button
+                {/* <Button
                 style={{color:"black"}}
                   title="EXPLORE MORE"
                   variant="textButton"
                   icon={<i className="flaticon-next" style={{color:"black"}}/>}
-                />
+                /> */}
               </ButtonGroup>
             </FormWrapper>
           </Fade>

@@ -32,10 +32,10 @@ const AboutUs = () => {
             <Text content={text} />
             <Text content={text2} />
             <Text content={text3} />
-            <Link href="#1" className="learn__more-btn">
+            {/* <Link href="#1" className="learn__more-btn">
               <span className="btn_text">VISITE SITE</span>
               <span className="next_arrow"></span>
-            </Link>
+            </Link> */}
           </Fade>
         </TextWrapper>
       </Container>
