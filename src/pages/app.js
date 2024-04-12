@@ -31,35 +31,35 @@ const FeatureSliderTwo = dynamic(
   }
 );
 
-function getSize() {
-  return {
-    innerHeight: window.innerHeight,
-    innerWidth: window.innerWidth,
-    outerHeight: window.outerHeight,
-    outerWidth: window.outerWidth,
-  };
-}
+// function getSize() {
+//   return {
+//     innerHeight: window.innerHeight,
+//     innerWidth: window.innerWidth,
+//     outerHeight: window.outerHeight,
+//     outerWidth: window.outerWidth,
+//   };
+// }
 
-function useWindowSize() {
-  let [windowSize, setWindowSize] = useState(getSize());
+// function useWindowSize() {
+//   let [windowSize, setWindowSize] = useState(getSize());
 
-  function handleResize() {
-    setWindowSize(getSize());
-  }
+//   function handleResize() {
+//     setWindowSize(getSize());
+//   }
 
-  useEffect(() => {
-    window.addEventListener('resize', handleResize);
+//   useEffect(() => {
+//     window.addEventListener('resize', handleResize);
 
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+//     return () => {
+//       window.removeEventListener('resize', handleResize);
+//     };
+//   }, []);
 
-  return windowSize;
-}
+//   return windowSize;
+// }
 
 const App = () => {
-  const size = typeof window !== 'undefined' && useWindowSize();
+  // const size = typeof window !== 'undefined' && useWindowSize();
   return (
     <ThemeProvider theme={appTheme}>
       <>
@@ -86,7 +86,8 @@ const App = () => {
           <FeatureSection />
           <ControlSection />
           <ConditionWrapper id="keyfeature">
-            {size.innerWidth > 1100 ? <FeatureSlider /> : <FeatureSliderTwo />}
+            <FeatureSlider /> 
+            {/* <FeatureSliderTwo/> */}
           </ConditionWrapper>
           <PartnerHistory />
           <PaymentSection />

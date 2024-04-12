@@ -76,8 +76,8 @@ import logo from 'common/assets/image/interior/logo.png';
 // Projects section data
 /* ------------------------------------ */
 import project1 from 'common/assets/image/interior/projects/project11.png';
-import slide1 from 'common/assets/image/interior/slider/slide-11.png';
-import slide2 from 'common/assets/image/interior/slider/slide-22.png';
+import slide1 from 'common/assets/image/interior/slider/become-chef.png';
+import slide2 from 'common/assets/image/interior/slider/download-app.png';
 import slide3 from 'common/assets/image/interior/slider/slide-3.png';
 import member1 from 'common/assets/image/interior/team/member111.jpg';
 import member2 from 'common/assets/image/interior/team/member22.jpg';
