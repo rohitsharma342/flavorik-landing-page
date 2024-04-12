@@ -29,6 +29,7 @@ const Footer = ({ row, col, colOne, colTwo }) => {
         </svg>
       </CurvIcon> */}
 
+
       <FooterWrapper>
         <Container width="1330px">
           <Box className="row" {...row}>
