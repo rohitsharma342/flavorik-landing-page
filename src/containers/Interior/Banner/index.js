@@ -99,7 +99,7 @@ const Banner = () => {
                 <Button
                   type="submit"
                   colors="primaryWithBg"
-                  title="I'AM INTRESTED"
+                  title="I'AM INTERESTED"
                 />
                 {/* <Button
                 style={{color:"black"}}
@@ -124,7 +124,7 @@ const Banner = () => {
               <Fragment>
                 {carousel.map((item) => (
                   <GlideSlide key={`carousel_key${item.id}`}>
-                    <Link href={item.link} className="item_wrapper">
+                    <Link href={item.link} target='_blank' className="item_wrapper">
                       <Image src={item.thumb_url?.src} alt={item.title} />
                       <Heading as="h4" content={item.title} />
                     </Link>

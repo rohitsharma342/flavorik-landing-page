@@ -1,1 +1,0 @@
-(()=>{var e={};e.id=888,e.ids=[888],e.modules={6748:()=>{},9984:()=>{},2247:e=>{"use strict";e.exports=require("@mantine/core")},997:e=>{"use strict";e.exports=require("react/jsx-runtime")}};var r=require("../webpack-runtime.js");r.C(e);var __webpack_exec__=e=>r(r.s=e),s=r.X(0,[508],()=>__webpack_exec__(8508));module.exports=s})();

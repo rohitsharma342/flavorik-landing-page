@@ -38,11 +38,7 @@ export const menuData = [
     path: '#team',
     offset: '80',
   },
-  {
-    label: 'News',
-    path: '#news',
-    offset: '40',
-  },
+ 
   {
     label: 'Testimonial',
     path: '#testimonial',
@@ -110,7 +106,7 @@ export const bannerData = {
       id: 1,
       thumb_url: slide1,
       title: 'Become Chef',
-      link: '#1',
+      link: 'http://flavorick.com',
     },
     {
       id: 2,
@@ -151,7 +147,7 @@ export const featureData = {
     {
       id: 4,
       icon: landscapeIcon,
-      title: '. Personalized Delights',
+      title: 'Personalized Delights',
       description:
         'Your preferences matter to us. Flavorick empowers you to customize your culinary adventure, resulting in meals that cater to your cravings, dietary requirements, and culinary aspirations',
     },
@@ -168,7 +164,7 @@ export const featureData = {
 
 export const aboutData = {
   thumb_url: parentImg,
-  title: 'Hi, Meet <br> Concrete Squarefeet',
+  title: 'What Flavorick <br> Is all about',
   text: 'Flavorick is more than just a name; its a journey into the world of flavors made effortlessly accessible. The name itself is a fusion of two elements: "flavor" and "click',
   text2:
     '"Flavor" resonates with the rich and diverse spectrum of tastes that culinary experiences offer. It encapsulates the essence of gastronomy, the indulgence of the senses, and the delight that comes from exploring new tastes',

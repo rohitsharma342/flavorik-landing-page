@@ -72,7 +72,7 @@ const Team = () => {
                         <TextWrapper className="text_wrapper">
                           <div className="name_plate">
                             <Heading as="h3" content={member.name} />
-                            <Text content={member.designation} />
+                            {/* <Text content={member.designation} /> */}
                           </div>
                           {/* <ul className="social_links">
                             {member.social_links.map((item) => (
