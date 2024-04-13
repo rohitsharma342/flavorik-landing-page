@@ -62,11 +62,11 @@ import interiorIcon from 'common/assets/image/interior/feature/3.svg';
 /* ------------------------------------ */
 // Gallery data
 /* ------------------------------------ */
-import galleryImg1 from 'common/assets/image/interior/gallery/11.jpg';
-import galleryImg2 from 'common/assets/image/interior/gallery/22.jpg';
-import galleryImg3 from 'common/assets/image/interior/gallery/33.jpg';
-import galleryImg4 from 'common/assets/image/interior/gallery/44.jpg';
-import galleryImg5 from 'common/assets/image/interior/gallery/55.jpg';
+import galleryImg1 from 'common/assets/image/interior/gallery/gallery1.jpg';
+import galleryImg2 from 'common/assets/image/interior/gallery/gallery2.jpg';
+import galleryImg3 from 'common/assets/image/interior/gallery/gallery3.jpg';
+import galleryImg4 from 'common/assets/image/interior/gallery/gallery4.jpg';
+import galleryImg5 from 'common/assets/image/interior/gallery/gallery5.jpg';
 import logo from 'common/assets/image/interior/logo.png';
 /* ------------------------------------ */
 // Projects section data
@@ -75,9 +75,9 @@ import project1 from 'common/assets/image/interior/projects/project11.png';
 import slide1 from 'common/assets/image/interior/slider/become-chef.png';
 import slide2 from 'common/assets/image/interior/slider/download-app.png';
 import slide3 from 'common/assets/image/interior/slider/slide-3.png';
-import member1 from 'common/assets/image/interior/team/member111.jpg';
-import member2 from 'common/assets/image/interior/team/member22.jpg';
-import member3 from 'common/assets/image/interior/team/member33.jpg';
+import member1 from 'common/assets/image/interior/gallery/gallery1.jpg';
+import member2 from 'common/assets/image/interior/gallery/gallery4.jpg';
+import member3 from 'common/assets/image/interior/gallery/gallery3.jpg';
 /* ------------------------------------ */
 // Team section data
 /* ------------------------------------ */

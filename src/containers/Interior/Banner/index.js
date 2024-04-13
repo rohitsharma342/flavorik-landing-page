@@ -80,7 +80,7 @@ const Banner = () => {
         <ContentArea>
           <Fade direction='down' triggerOnce delay={30}>
             <HighlightedText>
-              <strong>{discount}</strong> {discountLabel}
+              <strong style={{background:"#ec5862"}}>{discount}</strong> {discountLabel}
             </HighlightedText>
             <Heading as="h1" content={title} />
             <Text content={text} />
@@ -100,6 +100,7 @@ const Banner = () => {
                   type="submit"
                   colors="primaryWithBg"
                   title="I'AM INTERESTED"
+                  style={{background:"#ec5862",color:"white"}}
                 />
                 {/* <Button
                 style={{color:"black"}}
