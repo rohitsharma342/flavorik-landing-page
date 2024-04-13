@@ -10,6 +10,8 @@ import Input from 'common/components/Input';
 import GlideCarousel from 'common/components/GlideCarousel';
 import GlideSlide from 'common/components/GlideCarousel/glideSlide';
 import { CircleLoader } from '../interior.style';
+
+
 import BannerWrapper, {
   Container,
   ContentArea,
@@ -22,6 +24,7 @@ import BannerWrapper, {
 import { bannerData } from 'common/data/Interior';
 import { Fade } from 'react-awesome-reveal';
 import { background } from 'styled-system';
+import { detectDevice } from 'deviceDetector';
 
 const Banner = () => {
   const { discount, discountLabel, title, text, carousel } = bannerData;
@@ -41,7 +44,13 @@ const Banner = () => {
       },
     },
   };
+  const [deviceType, setDeviceType] = useState('Unknown');
 
+  useEffect(() => {
+      const userAgent = window.navigator.userAgent;
+      const detectedDevice = detectDevice(userAgent);
+      setDeviceType(detectedDevice);
+  }, []);
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
@@ -123,14 +132,24 @@ const Banner = () => {
               prevButton={<span className="prev_arrow" />}
             >
               <Fragment>
-                {carousel.map((item) => (
-                  <GlideSlide key={`carousel_key${item.id}`}>
-                    <Link href={item.link} target='_blank' className="item_wrapper">
-                      <Image src={item.thumb_url?.src} alt={item.title} />
-                      <Heading as="h4" content={item.title} />
-                    </Link>
-                  </GlideSlide>
-                ))}
+              {carousel.map((item) => (
+    <GlideSlide key={`carousel_key${item.id}`}>
+        <Link
+            href={(deviceType === 'Android' && item.id === 2)
+                ? 'https://play.google.com/store/apps/details?id=com.app.hey.chefy'
+                : ((deviceType === 'iOS' && item.id === 2)
+                    ? 'https://apps.apple.com/in/app/flavorick/id1636518565'
+                    : 'http://flavorick.com/')}
+            target='_blank'
+            className="item_wrapper"
+        >
+            <Image src={item.thumb_url?.src} alt={item.title} />
+            <Heading as="h4" content={item.title} />
+        </Link>
+    </GlideSlide>
+))}
+
+
               </Fragment>
             </GlideCarousel>
           ) : (
