@@ -52,13 +52,15 @@ export const menuData = [
 /* ------------------------------------ */
 // About section data
 /* ------------------------------------ */
-import parentImg from 'common/assets/image/interior/about_parent.png';
+import parentImg from 'common/assets/image/interior/pic2.jpg';
 /* ------------------------------------ */
 // Feature section data
 /* ------------------------------------ */
-import corporateIcon from 'common/assets/image/interior/feature/1.svg';
-import landscapeIcon from 'common/assets/image/interior/feature/2.svg';
-import interiorIcon from 'common/assets/image/interior/feature/3.svg';
+import corporateIcon from 'common/assets/image/interior/feature/Culinary.jpg';
+import landscapeIcon from 'common/assets/image/interior/feature/Health.jpg';
+import interiorIcon from 'common/assets/image/interior/feature/Authenticity.jpg';
+import CommunityIcon from 'common/assets/image/interior/feature/Community.jpg';
+import PersonalizedIcon from 'common/assets/image/interior/feature/Personalized.jpg';
 /* ------------------------------------ */
 // Gallery data
 /* ------------------------------------ */
@@ -71,7 +73,7 @@ import logo from 'common/assets/image/interior/logo.png';
 /* ------------------------------------ */
 // Projects section data
 /* ------------------------------------ */
-import project1 from 'common/assets/image/interior/projects/project11.png';
+import project1 from 'common/assets/image/interior/projects/pic3.jpg';
 import slide1 from 'common/assets/image/interior/slider/become-chef2.png';
 import slide2 from 'common/assets/image/interior/slider/download-app.png';
 import slide3 from 'common/assets/image/interior/slider/slide-3.png';
@@ -146,14 +148,14 @@ export const featureData = {
     },
     {
       id: 4,
-      icon: landscapeIcon,
+      icon: CommunityIcon,
       title: 'Personalized Delights',
       description:
         'Your preferences matter to us. Flavorick empowers you to customize your culinary adventure, resulting in meals that cater to your cravings, dietary requirements, and culinary aspirations',
     },
     {
       id: 3,
-      icon: interiorIcon,
+      icon: PersonalizedIcon,
       title: 'Community Spirit',
       description:
         'Beyond the plate, we are building a culinary community based on collaboration and sharing. Flavorick fosters interaction between chefs and customers, cultivating a sense of belonging and fostering an appreciation for culinary mastery',

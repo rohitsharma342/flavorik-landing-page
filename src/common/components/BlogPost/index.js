@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import NextImage from '../NextImage';
+import { borderRadius, width } from 'styled-system';
 
 const BlogPost = ({ className, thumbUrl, title, excerpt, link }) => {
   // Add all classes to an array
@@ -14,7 +15,7 @@ const BlogPost = ({ className, thumbUrl, title, excerpt, link }) => {
   return (
     <div className={addAllClasses.join(' ')}>
       <div className="thumbnail">
-        <NextImage src={thumbUrl} alt={title} />
+        <NextImage src={thumbUrl} alt={title}  style={{width:"120px",borderRadius:"100%"}}/>
       </div>
       <div className="content">
         <h3 className="title">{title}</h3>
