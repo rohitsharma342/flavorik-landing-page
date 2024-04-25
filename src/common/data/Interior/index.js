@@ -19,28 +19,28 @@
 /* ------------------------------------ */
 export const menuData = [
   {
-    label: 'Feature',
+    label: 'Our Values',
     path: '#feature',
     offset: '80',
   },
   {
-    label: 'About',
+    label: 'Flavorick',
     path: '#aboutUs',
     offset: '80',
   },
   {
-    label: 'Project',
+    label: 'Our Promis',
     path: '#project',
     offset: '80',
   },
   {
-    label: 'Team',
+    label: 'Chefs',
     path: '#team',
     offset: '80',
   },
  
   {
-    label: 'Testimonial',
+    label: 'Endearment',
     path: '#testimonial',
     offset: '80',
   },
@@ -72,7 +72,7 @@ import logo from 'common/assets/image/interior/logo.png';
 // Projects section data
 /* ------------------------------------ */
 import project1 from 'common/assets/image/interior/projects/project11.png';
-import slide1 from 'common/assets/image/interior/slider/become-chef.png';
+import slide1 from 'common/assets/image/interior/slider/become-chef2.png';
 import slide2 from 'common/assets/image/interior/slider/download-app.png';
 import slide3 from 'common/assets/image/interior/slider/slide-3.png';
 import member1 from 'common/assets/image/interior/gallery/gallery1.jpg';
@@ -97,8 +97,8 @@ import { socialSkype } from 'react-icons-kit/ionicons/socialSkype';
 import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
 
 export const bannerData = {
-  discount: '25%',
-  discountLabel: 'DISCOUNT ON YOUR FIRST DESIGN',
+  discount: '50%',
+  discountLabel: 'discount on first 5 orders',
   title: 'Embark on Your Flavorful Journey Today',
   text: 'Flavorick is the portal to a world of authentic, homemade and personalized flavors. Download now and let your culinary voyage begin',
   carousel: [
@@ -112,7 +112,7 @@ export const bannerData = {
       id: 2,
       thumb_url: slide2,
       title: 'Download the app',
-      link: '#1',
+      link: '/#download',
     },
   
   ],
@@ -120,7 +120,7 @@ export const bannerData = {
 
 
 export const featureData = {
-  title: 'Our Core Values',
+  title: 'Our Values',
   slogan: 'Featured Service that We Provide',
   features: [
     {
@@ -202,7 +202,7 @@ export const projectData = {
 
 
 export const teamData = {
-  title: 'OUR TEAM MEMBER',
+  title: 'OUR CHEFS',
   slogan: 'Meet Our New Chefs of the week: Fresh Culinary Talent Await!',
   members: [
     {
@@ -452,38 +452,27 @@ export const newsletterData = {
 
 export const footerData = {
   logo: logo,
-  mail: 'hello@redq.io',
+  mail: 'ceo@flavorick.com',
   phone: '123-456-7890',
   socialLinks: [
     {
       id: 1,
       icon: <Icon icon={facebook} />,
       name: 'facebook',
-      link: '#',
+      link: 'https://www.facebook.com/profile.php?id=61558980444739&mibextid=LQQJ4d',
     },
     {
       id: 2,
       icon: <Icon icon={dribbble} />,
       name: 'dribbble',
-      link: '#',
+      link: 'https://www.instagram.com/flavorick?igsh=MTBlNzNjbm5kdW1ndQ==',
     },
-    {
-      id: 3,
-      icon: <Icon icon={googlePlus} />,
-      name: 'googlePlus',
-      link: '#',
-    },
-    {
-      id: 4,
-      icon: <Icon icon={skype} />,
-      name: 'skype',
-      link: '#',
-    },
+    
     {
       id: 5,
       icon: <Icon icon={twitter} />,
       name: 'twitter',
-      link: '#',
+      link: 'https://twitter.com/flavorick',
     },
   ],
   menuWidgets: [

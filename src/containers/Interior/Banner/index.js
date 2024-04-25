@@ -135,12 +135,8 @@ const Banner = () => {
               {carousel.map((item) => (
     <GlideSlide key={`carousel_key${item.id}`}>
         <Link
-            href={(deviceType === 'Android' && item.id === 2)
-                ? 'https://play.google.com/store/apps/details?id=com.app.hey.chefy'
-                : ((deviceType === 'iOS' && item.id === 2)
-                    ? 'https://apps.apple.com/in/app/flavorick/id1636518565'
-                    : 'http://flavorick.com/')}
-            target='_blank'
+            href={item.link}
+            //  target='_blank'
             className="item_wrapper"
         >
             <Image src={item.thumb_url?.src} alt={item.title} />

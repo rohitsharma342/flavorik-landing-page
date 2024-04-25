@@ -18,6 +18,7 @@ import { menuData } from 'common/data/Interior';
 import logo from 'common/assets/image/interior/logo.png';
 import SearchDialog from 'common/components/Dialog/searchDialog';
 import LoginDialog from 'common/components/Dialog/loginDialog';
+import { width } from 'styled-system';
 
 const Navbar = ({ navbarStyle, logoStyle }) => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -36,6 +37,7 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
           logoSrc={logo}
           title="Interior"
           logoStyle={logoStyle}
+          style={{width:"300px"}}
         />
         <div style={{ display: 'flex', alignItems: 'center' }}>
           {/* <SearchDialog

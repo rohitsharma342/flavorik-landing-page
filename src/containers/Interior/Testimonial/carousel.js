@@ -26,8 +26,8 @@ const Carousel = ({ data }) => {
                   <div className="user_info">
                     <Heading as="h3" content={item.name} />
                     <p>
-                      {item.designation}{' '}
-                      <a href={item.account_url}>{item.username}</a>
+                      {/* {item.designation}{' '} */}
+                      {/* <a href={item.account_url}>{item.username}</a> */}
                     </p>
                   </div>
                   <div className="review">

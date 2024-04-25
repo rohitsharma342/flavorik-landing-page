@@ -29,6 +29,11 @@
       "label": "Testimonial",
       "path": "#testimonial",
       "offset": "80"
+    },
+    {
+      "label": "Download",
+      "path": "#download",
+      "offset": "80"
     }
   ],
   "bannerData": {
