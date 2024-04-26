@@ -52,7 +52,7 @@ export const menuData = [
 /* ------------------------------------ */
 // About section data
 /* ------------------------------------ */
-import parentImg from 'common/assets/image/interior/pic2.jpg';
+import parentImg from 'common/assets/image/interior/Pic2.jpg';
 /* ------------------------------------ */
 // Feature section data
 /* ------------------------------------ */
@@ -73,7 +73,7 @@ import logo from 'common/assets/image/interior/logo.png';
 /* ------------------------------------ */
 // Projects section data
 /* ------------------------------------ */
-import project1 from 'common/assets/image/interior/projects/pic3.jpg';
+import project1 from 'common/assets/image/interior/projects/Pic3.jpg';
 import slide1 from 'common/assets/image/interior/slider/become-chef2.png';
 import slide2 from 'common/assets/image/interior/slider/download-app.png';
 import slide3 from 'common/assets/image/interior/slider/slide-3.png';
