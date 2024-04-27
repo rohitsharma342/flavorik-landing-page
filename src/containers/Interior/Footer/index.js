@@ -41,7 +41,7 @@ const Footer = ({ row, col, colOne, colTwo }) => {
                 title="Interior"
               />
               <Text className="text" content={mail} />
-              <Text className="text" content={phone} />
+              {/* <Text className="text" content={phone} /> */}
               <SocialList>
                 {socialLinks.map((item) => (
                   <li className={item.name} key={`link-key${item.id}`}>
@@ -82,9 +82,9 @@ const Footer = ({ row, col, colOne, colTwo }) => {
           </Box>
           {/* End of widgets row */}
           <Box className="row copyright" {...row}>
-            <Text className="text" content="copyright 2019 @RedQ" />
+            <Text className="text" content="copyright 2024 @Flavorick" />
             <p>
-              Built & designed with
+              Built & designed by <a href='https://brainboxapps.com/' target='_blank'>Brainbox Apps</a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="11.243"

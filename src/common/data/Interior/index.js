@@ -29,7 +29,7 @@ export const menuData = [
     offset: '80',
   },
   {
-    label: 'Our Promis',
+    label: 'Our Promise',
     path: '#project',
     offset: '80',
   },
@@ -607,26 +607,17 @@ export const socialProfile = [
   {
     id: 1,
     icon: 'flaticon-facebook-logo',
-    link: '#',
+    link: 'https://www.facebook.com/profile.php?id=61558980444739&mibextid=LQQJ4d',
   },
   {
     id: 2,
     icon: 'flaticon-twitter-logo-silhouette',
-    link: '#',
+    link: 'https://twitter.com/flavorick',
   },
   {
     id: 3,
     icon: 'flaticon-instagram',
-    link: '#',
+    link: 'https://www.instagram.com/flavorick?igsh=MTBlNzNjbm5kdW1ndQ==',
   },
-  {
-    id: 4,
-    icon: 'flaticon-tumblr-logo',
-    link: '#',
-  },
-  {
-    id: 5,
-    icon: 'flaticon-dribble-logo',
-    link: '#',
-  },
+  
 ];

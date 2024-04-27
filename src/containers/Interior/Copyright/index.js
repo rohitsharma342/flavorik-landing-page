@@ -11,13 +11,13 @@ const Copyright = () => {
       <ul>
         {socialProfile.map((profile, index) => (
           <li key={`profile_key_${index}`}>
-            <Link href="#1">
+            <Link href={profile.link}>
               <i className={profile.icon} />
             </Link>
           </li>
         ))}
       </ul>
-      <Text content="Copyrights 2019 @RedQ Inc" />
+      {/* <Text content="Copyrights 2019 @RedQ Inc" /> */}
     </CopyrightWrapper>
   );
 };
