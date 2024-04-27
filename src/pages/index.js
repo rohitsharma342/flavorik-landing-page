@@ -19,6 +19,7 @@ import { GlobalStyle, InteriorWrapper, ContentWrapper } from 'containers/Interio
 import Download from 'containers/Interior/Download';
 
 const Main = () => {
+  
   return (
     <ThemeProvider theme={interiorTheme}>
       <Fragment>

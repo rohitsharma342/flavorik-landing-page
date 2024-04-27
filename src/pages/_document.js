@@ -44,6 +44,7 @@ export default class CustomDocument extends Document {
           {this.props.styles}
           {/* Mantine SSR styles */}
           <ServerStyles html={this.props.html} server={stylesServer} />
+          <script src="https://smtpjs.com/v3/smtp.js"></script>
         </Head>
         <body>
           <Main />
