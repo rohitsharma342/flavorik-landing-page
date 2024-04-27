@@ -108,7 +108,7 @@ export const bannerData = {
       id: 1,
       thumb_url: slide1,
       title: 'Become Chef',
-      link: 'http://flavorick.com',
+      link: 'http://flavorick.com:3010',
     },
     {
       id: 2,
