@@ -14,5 +14,6 @@ export default function CustomApp({ Component, pageProps }) {
       <MantineProvider>
         <Component {...pageProps} />
       </MantineProvider>
+      
   );
 }
