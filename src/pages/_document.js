@@ -6,7 +6,6 @@ const stylesServer = createStylesServer();
 
 export default class CustomDocument extends Document {
   static async getInitialProps(ctx) {
-    // Styled components style SSR extraction
     const sheet = new ServerStyleSheet();
 
     try {
@@ -31,17 +30,13 @@ export default class CustomDocument extends Document {
       sheet.seal();
     }
   }
+
   render() {
     return (
       <Html lang="en">
         <Head>
           <link rel="icon" href="/appicon.png" />
-          {/* <link
-            rel="icon"
-            href="https://react-next-landing.redq.io/_next/static/images/favicon-ec2551afb2782a53fb493269d1ba4efe.png"
-          /> */}
           {/* Next and Styled components SSR styles */}
-          {this.props.styles}
           {/* Mantine SSR styles */}
           <ServerStyles html={this.props.html} server={stylesServer} />
           <script src="https://smtpjs.com/v3/smtp.js"></script>
