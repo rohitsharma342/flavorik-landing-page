@@ -14,7 +14,7 @@ import FooterWrapper, {
 } from './footer.style';
 
 import { footerData } from 'common/data/Interior';
-import { marginLeft } from 'styled-system';
+import { width } from 'styled-system';
 
 const Footer = ({ row, col, colOne, colTwo }) => {
   const { logo, mail, phone, socialLinks, menuWidgets } = footerData;
@@ -32,27 +32,36 @@ const Footer = ({ row, col, colOne, colTwo }) => {
 
 
       <FooterWrapper>
-        <Container width="100%" >
-          <Box className="ms:[40%]" style={{marginLeft:"40%"}} {...row}>
-            <Box className="" {...colOne}>
+       
+        {/* <Container > */}
+          <div className='text-center'>
+          {/* <Box className="row " > */}
+            <Box className="col-one" >
               <Logo
                 className="logo"
                 href="/interior"
                 logoSrc={logo}
                 title="Interior"
+                style={{width:"200px"}}
               />
-              <Text className="text text-center" content={mail} />
-              <Text className="text text-center" content="support@flavorick.com" />
-              {/* <Text className="text" content={phone} /> */}
-              <SocialList >
+              <Text className="text" content={mail} />
+              <Text className="text" content="support@flavorick.com" />
+              <div className=' text-dark'>
+              {/* <SocialList> */}
+           
                 {socialLinks.map((item) => (
-                  <li className={`${item.name} ms-5`} key={`link-key${item.id}`} >
-                    <Link href={item.link} className='text-center'>
+                  // <li className={`${item.name} text-center `} key={`link-key${item.id}`}>
+                    <Link href={item.link} className='text-dark p-3'> 
                       {item.icon}
                     </Link>
-                  </li>
+                    
+                  // </li>
                 ))}
-              </SocialList>
+                
+              {/* </SocialList> */}
+              </div>
+              {/* <Text className="text" content={phone} /> */}
+              
             </Box>
             {/* End of logo column */}
 
@@ -81,11 +90,13 @@ const Footer = ({ row, col, colOne, colTwo }) => {
               ))}
             </Box> */}
             {/* End of List column */}
-          </Box>
+          {/* </Box> */}
+          </div>
+      
           {/* End of widgets row */}
           <Box className="row copyright" {...row}>
-            <Text className="text" content="copyright 2024 @Flavorick" />
-            <p>
+            <Text className="text text-center" content="copyright 2024 @Flavorick" />
+            <p className='text-center'>
               Built & designed by <a href='https://brainboxapps.com/' target='_blank'>Brainbox Apps</a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +114,7 @@ const Footer = ({ row, col, colOne, colTwo }) => {
             </p>
           </Box>
           {/* End of copyright row */}
-        </Container>
+        {/* </Container> */}
       </FooterWrapper>
     </Fragment>
   );
