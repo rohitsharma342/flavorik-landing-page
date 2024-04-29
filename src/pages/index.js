@@ -26,7 +26,7 @@ const Main = () => {
         <Head>
           <title>Flavorick</title>
           <meta name="theme-color" content="#171717" />
-          <meta name="description" content="React next landing page" />
+          <meta name="description" content="Embark on Your Flavorful Journey Today" />
           <meta name="keywords" content="React, React js, Next, Next js, Gatsby, Gatsby Js, Fast Landing, Modren Landing" />
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"></link>
           <link href="https://fonts.googleapis.com/css?family=Raleway:500,600&display=swap" rel="stylesheet"></link>
@@ -45,6 +45,7 @@ const Main = () => {
           </Sticky>
           <ContentWrapper>
             <Banner />
+            <Download/>
             <Feature />
             <AboutUs />
             <Project />
@@ -52,7 +53,7 @@ const Main = () => {
             {/* <News /> */}
             <Testimonial />
             <Gallery />
-            <Download/>
+         
           </ContentWrapper>
           <Footer />
         </InteriorWrapper>

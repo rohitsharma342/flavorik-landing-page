@@ -36,8 +36,8 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
           href="/interior"
           logoSrc={logo}
           title="Interior"
-          logoStyle={logoStyle}
-          style={{width:"300px"}}
+          // logoStyle={logoStyle}
+          style={{width:"200px"}}
         />
         <div style={{ display: 'flex', alignItems: 'center' }}>
           {/* <SearchDialog

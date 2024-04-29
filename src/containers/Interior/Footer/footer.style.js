@@ -13,7 +13,7 @@ const FooterWrapper = styled.footer`
 
   .col-one {
     .logo {
-      width: 110px;
+      width: 100px;
       margin-bottom: 20px;
     }
   }
@@ -52,6 +52,10 @@ const FooterWrapper = styled.footer`
         margin-left: 10px;
       }
     }
+  }
+  .custom-margin {
+    margin-left: 40%;
+    
   }
 `;
 

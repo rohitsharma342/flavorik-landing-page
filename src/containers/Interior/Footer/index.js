@@ -14,6 +14,7 @@ import FooterWrapper, {
 } from './footer.style';
 
 import { footerData } from 'common/data/Interior';
+import { marginLeft } from 'styled-system';
 
 const Footer = ({ row, col, colOne, colTwo }) => {
   const { logo, mail, phone, socialLinks, menuWidgets } = footerData;
@@ -31,21 +32,22 @@ const Footer = ({ row, col, colOne, colTwo }) => {
 
 
       <FooterWrapper>
-        <Container width="1330px">
-          <Box className="row" {...row}>
-            <Box className="col-one" {...colOne}>
+        <Container width="100%" >
+          <Box className="ms:[40%]" style={{marginLeft:"40%"}} {...row}>
+            <Box className="" {...colOne}>
               <Logo
                 className="logo"
                 href="/interior"
                 logoSrc={logo}
                 title="Interior"
               />
-              <Text className="text" content={mail} />
+              <Text className="text text-center" content={mail} />
+              <Text className="text text-center" content="support@flavorick.com" />
               {/* <Text className="text" content={phone} /> */}
-              <SocialList>
+              <SocialList >
                 {socialLinks.map((item) => (
-                  <li className={item.name} key={`link-key${item.id}`}>
-                    <Link href={item.link}>
+                  <li className={`${item.name} ms-5`} key={`link-key${item.id}`} >
+                    <Link href={item.link} className='text-center'>
                       {item.icon}
                     </Link>
                   </li>
@@ -54,7 +56,7 @@ const Footer = ({ row, col, colOne, colTwo }) => {
             </Box>
             {/* End of logo column */}
 
-            <Box className="col-two" {...colTwo}>
+            {/* <Box className="col-two" {...colTwo}>
               {menuWidgets.map((widget) => (
                 <Box
                   className="col"
@@ -77,7 +79,7 @@ const Footer = ({ row, col, colOne, colTwo }) => {
                   </List>
                 </Box>
               ))}
-            </Box>
+            </Box> */}
             {/* End of List column */}
           </Box>
           {/* End of widgets row */}
