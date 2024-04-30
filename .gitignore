@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-.next
+# .next
 .docz
 out
 # testing
@@ -30,7 +30,7 @@ yarn-error.log*
 .idea/
 .vscode/
 node_modules/
-build
+
 
 .DS_Store
 *.tgz
