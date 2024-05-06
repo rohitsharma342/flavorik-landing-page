@@ -108,7 +108,7 @@ export const bannerData = {
       id: 1,
       thumb_url: slide1,
       title: 'Become Chef',
-      link: 'http://flavorick.com:3010',
+      link: 'https://chef.flavorick.com',
     },
     {
       id: 2,
@@ -121,7 +121,7 @@ export const bannerData = {
 };
 
 
-export const featureData = {
+export const  featureData = {
   title: 'Our Values',
   slogan: 'Featured Service that We Provide',
   features: [
