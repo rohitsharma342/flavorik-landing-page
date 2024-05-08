@@ -33,7 +33,7 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
     <NavbarWrapper {...navbarStyle}>
       <Container>
         <Logo
-          href="/interior"
+          href="/"
           logoSrc={logo}
           title="Interior"
           // logoStyle={logoStyle}
