@@ -96,7 +96,7 @@ const Footer = ({ row, col, colOne, colTwo }) => {
           {/* End of widgets row */}
           <Box className="row copyright" {...row}>
             <Text className="text text-center" content="copyright 2024 @Flavorick" />
-            <p className='text-center'>
+            {/* <p className='text-center'>
               Built & designed by <a href='https://brainboxapps.com/' target='_blank'>Brainbox Apps</a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +111,7 @@ const Footer = ({ row, col, colOne, colTwo }) => {
                   fill="#f4291e"
                 />
               </svg>
-            </p>
+            </p> */}
           </Box>
           {/* End of copyright row */}
         {/* </Container> */}
