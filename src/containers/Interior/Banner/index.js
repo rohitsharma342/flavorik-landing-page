@@ -83,7 +83,7 @@ const Banner = () => {
         }
         const response = await axios.post('https://chef.flavorick.com/api/send-email-landing', formData);
         console.log(response.data);
-       alert("Thank You For Your Intrest")
+       alert("Thank You For Your Interest")
         setState({ email: '', valid: '' });
       }
 
